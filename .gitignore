@@ -33,3 +33,9 @@
 
 # emacs
 *~
+
+# core
+core*
+
+# test program
+test-cityhash

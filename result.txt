@@ -1,0 +1,29 @@
+
+omp1
+real	0m17.412s
+user	0m16.284s
+sys	0m1.112s
+
+omp2
+real	0m11.216s
+user	0m16.836s
+sys	0m1.292s
+
+omp3
+real	0m8.914s
+user	0m16.868s
+sys	0m1.320s
+
+omp4
+real	0m7.938s
+user	0m16.928s
+sys	0m1.308s
+
+diff check
+
+$ diff double_test.dat double_test_replace.dat 
+$ diff double_test.dat double_test_omp1.dat 
+$ diff double_test.dat double_test_omp2.dat 
+$ diff double_test.dat double_test_omp3.dat 
+$ diff double_test.dat double_test_omp4.dat 
+
