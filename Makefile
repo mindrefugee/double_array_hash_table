@@ -3,7 +3,7 @@ test_cityhash_OBJECTS=test-cityhash.o
 test-cityhash_SOURCES=$(test_cityhash_OBJECTS:.o=.c)
 OBJECTS=adhf.o
 
-CFLAGS+=-I/usr/local/include -fopenmp
+CFLAGS+=-I/usr/local/include -fopenmp -pg
 LDADD+=-L/usr/local/lib -lccityhash
 
 .PHONY: all clean
